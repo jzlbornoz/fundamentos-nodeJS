@@ -9,3 +9,9 @@
 - En Node todo funciona en base a modulos, todo lo que no sea sintaxis del lenguaje son modulos. se pueden crear propios modulos aparte de los que ya vienen por defecto.
 
 - Es orientado a eventos, permitiendo programar de forma reactiva.
+
+## EventLoop
+
+- Es un proceso con un bucle que se encarga de gestionar de forma asincrona todos los eventos de la aplicacion
+- Event Queue: Contiene todos los eventos o procesos del codigo, que quedan en una cola y se van pasando al eventLoop
+- Thread Pool: Se encarga de gestionar los eventos de forma asincrona como (DB ops , files, slow Ops). Finalizada la gestion los devuelve al EventLoop y este se encargara de decidir si los pasa al EventQueue o no.
