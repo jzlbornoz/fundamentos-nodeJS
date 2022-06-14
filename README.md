@@ -15,3 +15,7 @@
 - Es un proceso con un bucle que se encarga de gestionar de forma asincrona todos los eventos de la aplicacion
 - Event Queue: Contiene todos los eventos o procesos del codigo, que quedan en una cola y se van pasando al eventLoop
 - Thread Pool: Se encarga de gestionar los eventos de forma asincrona como (DB ops , files, slow Ops). Finalizada la gestion los devuelve al EventLoop y este se encargara de decidir si los pasa al EventQueue o no.
+
+## Monohilo
+-
+- Importante: Cuando ocurre un error dentro de alguno de los hilos y no se controla apropiadamente (catch); Node detiene todos los hilos ejecución. Esto puede ser muy peligroso, debido a que es dificil determinar fue el origen del problema y en que punto de ejecución se encontraba cada hilo cuando fue detenido.
