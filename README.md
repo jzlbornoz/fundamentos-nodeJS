@@ -18,3 +18,6 @@
 
 ## Monohilo
 - Importante: Cuando ocurre un error dentro de alguno de los hilos y no se controla apropiadamente (catch); Node detiene todos los hilos ejecución. Esto puede ser muy peligroso, debido a que es dificil determinar fue el origen del problema y en que punto de ejecución se encontraba cada hilo cuando fue detenido.
+
+## Variables Globales 
+- Node posee el objeto global que contiene los metodos y propiedades basicas, por ejemplo (setInterval()).
