@@ -51,3 +51,7 @@
     ```addon.hola()```
 
     debería imprimir `mundo`
+
+# Datos almacenaos
+
+- Buffer: 
