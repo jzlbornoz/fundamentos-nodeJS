@@ -1,0 +1,5 @@
+===INPUT TXT===
+archivo  que se 
+va a 
+leer
+.

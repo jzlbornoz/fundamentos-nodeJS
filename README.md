@@ -54,4 +54,4 @@
 
 # Datos almacenaos
 
-- Buffer: 
+- Buffer: Es un espacio en memoria en el que se almacenan datos de manera temporal. Los datos se guardan en bytes sin especificar el tipo de dato, y en la consola se muestra de manera hexadecimal.
